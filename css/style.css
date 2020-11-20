@@ -1,0 +1,63 @@
+.text-primary{
+	color: #1E90FF;
+}
+.overlay{
+	min-width: 100%;
+	min-height: 100%;
+	background: #000;
+	opacity: .3;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 1;
+}
+.container{
+	text-align: center;
+	background:url(../images/new/dylan-nolte-SH_IjrKwG8c-unsplash.jpg);
+	background-size: cover;
+	margin:auto;
+	position: absolute;
+	top:0;
+	left:50%;
+	transform: translate(-50%,0%);
+	z-index: 2;
+}
+html,body{
+	color:white;
+	margin:0;
+	padding:0;
+}
+.containert{
+	
+	width:100%;
+	position: fixed;
+	height:100vh;
+	background-size: cover;
+
+	background:url(../images/wallpapers/dylan-nolte-SH_IjrKwG8c-unsplash.jpg);
+
+}
+
+
+-video{
+	width:100%;
+}
+.video,iframe{
+	margin-top:10px;
+	border-bottom:25px solid orange;
+	width:100%;
+	max-width: 700px;
+}
+.video:focus,iframe:focus{
+	box-shadow: orange;
+	border-bottom:25px solid orange;
+}
+p{
+	color: white;
+	padding:12px 12px;
+	margin-bottom:20px;
+	border-bottom: 3px solid cyan;
+}
+::-webkit-scrollbar{
+	overflow: hidden;
+}
